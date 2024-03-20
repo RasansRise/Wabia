@@ -55,7 +55,7 @@ section {
   background: #fff;
 }
 h3{
-  margin:20px 0;
+  margin-bottom:20px;
 }
 section.row,
 header.row,
@@ -190,7 +190,7 @@ li {
   padding: 0 85px;
   border-radius: 60px;
   font: 500 27px/72px "Cairo", sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 991px) {

@@ -54,7 +54,9 @@ img{
 section {
   background: #fff;
 }
-
+h3{
+  margin:20px 0;
+}
 section.row,
 header.row,
 footer.row {
@@ -832,7 +834,7 @@ textarea.form-control {
 }
 
 .top-banner {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .top-banner h2 {
@@ -935,7 +937,7 @@ header.row {
   background: url(../images/header-background\ copy2.jpg) no-repeat scroll center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top:100px;
+  padding-top:40px;
   min-height: 100vh;
 }
 
@@ -1730,7 +1732,7 @@ header.video-bg {
 }
 
 .work-processes {
-  margin: 100px 0 50px;
+  margin: 40px 0 40px;
   display: flex;
   justify-content: space-between;
 }

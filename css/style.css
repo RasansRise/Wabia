@@ -202,7 +202,7 @@ li {
 
 @media (max-width: 767px) {
   .btn-primary.btn-lg {
-    padding: 0 65px;
+    padding: 0 50px;
   }
 }
 
@@ -471,21 +471,28 @@ textarea.form-control {
 .nav{
   display: flex;
   flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width:691px){
+  .nav{
+    flex-direction: column;
+  }
 }
 .nav>li{
   display: flex;
   flex-direction: row-reverse;
-  justify-content: stretch;
-  width: 200px;
+  justify-content: center;
+  width: 45%;
   font-size: 20px;
   font-weight: 700;
   gap: 10px;
-  margin: 10px auto;
+
 }
 .nav>li i{
   line-height: unset;
-  font-size:26px;
-  color:#333333;
+  font-size:20px;
+  color:white;
 }
 .nav-pills > li > a {
   background-color: #eee;
@@ -1724,21 +1731,14 @@ header.video-bg {
 
 .work-processes {
   margin: 100px 0 50px;
+  display: flex;
+  justify-content: space-between;
 }
-
 .work-process {
   text-align: center;
 }
 
-.work-process + .work-process:before {
-  content: '';
-  width: 30px;
-  height: 63px;
-  float: left;
-  margin-left: -30px;
-  display: block;
-  background: url(../images/angle-left.png) no-repeat scroll center 32px;
-}
+
 
 @media (max-width: 767px) {
   .work-process + .work-process:before {
@@ -1759,7 +1759,14 @@ header.video-bg {
   font: 600 26px/1 "Cairo", sans-serif;
   margin: 10px 0 8px;
 }
-
+@media(max-width:691px){
+  .work-process .process-icon{
+    font-size:30px;
+  }
+  .work-process h3 {
+    font: 600 18px/1 "Cairo", sans-serif;
+  }
+}
 .work-process p {
   font: 300 16px/28px "Cairo", sans-serif;
 }
